@@ -17,7 +17,7 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/west-kirby-campsites.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/west-kirby-campsites.jpg");
     min-height: 25em;
     height: 50%;
     align-self: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .hero-image.nature {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/lighthouse.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/lighthouse.jpg");
 
 }
 
