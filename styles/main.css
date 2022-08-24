@@ -17,7 +17,7 @@ body {
 .hero-image {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/west-kirby-campsites.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/lighthouse.jpg");
     min-height: 25em;
     height: 50%;
     align-self: center;
@@ -28,7 +28,24 @@ body {
 }
 
 .hero-image.nature {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/lighthouse.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/thors.jpg");
+    background-position: center;
+
+}
+
+.hero-image.leisure {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/golfbig.jpg");
+    background-position: center;
+}
+
+.hero-image.history {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/history.jpg");
+
+}
+
+.hero-image.food {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/beerbanner.jpg");
+    background-position: center;
 
 }
 
@@ -642,6 +659,14 @@ footer {
     order: 1;
 }
 
+@media screen and (max-width: 736px) {
+
+    #wrapper > .sub-page > section:nth-child(5) > div > div:nth-child(1) {
+        order: 0;
+    }
+
+}
+
 .split-section:nth-of-type(1) {
     margin-top: 0;
 }
@@ -649,8 +674,8 @@ footer {
 hr {
     border: 0;
     height: 1px;
-    background: #333;
-    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    background: #33333342;
+    background-image: linear-gradient(to right, #cccccc28, #33333342, #cccccc28);
 }
 
 
@@ -675,6 +700,7 @@ hr {
 
 .split-section-media img {
     object-fit: cover;
+    filter: contrast(0.9)
 }
 
 .column {
