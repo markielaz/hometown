@@ -25,28 +25,23 @@ body {
     background-size: cover;
     align-items: center;
     justify-content: center;
+    background-position: center;
 }
 
 .hero-image.nature {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/thors.jpg");
-    background-position: center;
-
 }
 
 .hero-image.leisure {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/golfbig.jpg");
-    background-position: center;
 }
 
 .hero-image.history {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/history.jpg");
-
 }
 
 .hero-image.food {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/beerbanner.jpg");
-    background-position: center;
-
 }
 
 .hero-text {
